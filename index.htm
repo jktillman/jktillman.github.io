@@ -5,7 +5,7 @@
   <meta charset="utf-8">
 
   <title>Tillman Auto Parts</title>
-  <meta name="description" content="Parts store">
+  ​<meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="my.css" type="text/css">
   
@@ -30,12 +30,17 @@
 <div class="maininfo">
 <p style="text-align:center;"><strong>Welcome to the best auto parts store on the web!</strong> <br>
 We have everything you need to repair your vehicle. <br>
-From A-Arms to wiper blades, we have every part for your car or truck! <br><br>
-We give AAA discounts for those customers who are members.<br><br>
+We have every part for your car or truck! <br><br>
+
 We stock all the lubricants and oil change products you will ever need.
-<p style="text-align:center;"><strong>ALL ACDELCO PRODUCTS 10% OFF - THIS WEEK ONLY!</strong></p>
-<p style="text-align:center;"><strong>MOBILE 1 OIL PRODUCTS ON SALE THIS MONTH - INCLUDES A FREE FILTER WITH PURCHASE OF 5 QUARTS!</strong></p>
+<p style="text-align:center;"><strong>ALL ACDELCO PRODUCTS 10% OFF - THIS WEEK ONLY!</strong></p><br>
 </div>
+
+<div class="products">
+<h2><p style="text-align:center;"><strong>Our Most <br>Popular Parts</strong></p></h2>
+</div>
+
+
 
 <div class="links">
 <a href="https://jktillman.github.io/">Home</a><br><br><br>
@@ -50,11 +55,43 @@ We stock all the lubricants and oil change products you will ever need.
 </div>
 </div>
 
+ <div class="slideshow-container" style="margin:auto";>
+  <div class="mySlides fade" style="text-align:center">
+    <div class="numbertext">1 / 4</div>
+    <img src="Images\oilf1.jpg"  style="width:90%"  alt="picture of Fram Racing"> 
+    <div class="text">Fram Racing Filter</div>
+  </div>
 
-<div class="storeimg">
-<p style="text-align:center;"><img src="Images\autopartsstore.jpg" width = 500  alt="picture of store">
+  <div class="mySlides fade" style="text-align:center">
+    <div class="numbertext">2 / 4</div>
+    <img src="Images\oilf4.jpg"  style="width:90%"    alt="picture of Fram Ultra"> 
+    <div class="text">Fram Ultra Filter</div>
+  </div>
+
+  <div class="mySlides fade" style="text-align:center">
+    <div class="numbertext">3 / 4</div>
+    <img src="Images\oilf5.jpg"   style="width:90%"  alt="picture of Puro">
+    <div class="text">Purolator Filter</div>
+  </div>
+  
+  <div class="mySlides fade" style="text-align:center">
+    <div class="numbertext">4 / 4</div>
+    <img src="Images\batt5.jpg"  style="width:90%"   alt="picture of diehard">
+    <div class="text">Diehard Battery</div>
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
-</p>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+
  <script src="myscript.js"></script>
 
 </body>
