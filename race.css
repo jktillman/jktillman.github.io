@@ -1,0 +1,53 @@
+
+
+ #container {  
+  position: relative;
+  min-height:500px;
+  }
+  
+ #animate {  
+  position: absolute;
+  top: 250px;
+  Left: 30px;
+  z-index:2;
+  }
+  
+ #animate2 {  
+  position: absolute;
+  top: 400px;
+  left: 30px;
+  z-index:2;
+  }
+ 
+#redlight {
+   width: 100px;
+   position: absolute;
+   top: 20px;
+   left: 10%;
+   z-index: 1;
+   }
+
+#greenlight {
+   width: 100px;
+   position: absolute;
+   top: 20px;
+   left: 10%;
+   z-index: 0;
+   }
+ 
+ #trophy  {
+   width: 500px;
+   height: 500px;
+   position: absolute;
+   top: 200px;
+   left: 30%;
+   z-index: 0;
+   }             
+
+   .finish {
+   position: absolute; 
+   left:680px; 
+   top:320px;
+   z-index:1;
+   }
+   
