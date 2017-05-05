@@ -32,12 +32,6 @@ function myMove2() {
     }
   }
 }
-function myMove3() {
-  var elem2 = document.getElementById("animate2");   
-   var pos2 = 30;
-  var elem2 = document.getElementById("animate2");   
-   var pos2 = 30;
-}
 
 
 function myFunction() {
